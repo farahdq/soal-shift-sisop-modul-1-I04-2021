@@ -1,4 +1,5 @@
 #!/bin/bash
+//NO1//
 awk -F "\t" 'BEGIN {max=0}
 {
   cost = $21/($18 - $21)*100;
@@ -8,6 +9,7 @@ END {
  	print "The last transaction with the largest ", ORDID,"with a percentage of",max,"%\n"
 }' Laporan-TokoShiSop.tsv > hasil.txt
 
+//NO2//
 awk -F "\t" 'BEGIN {
 	print "The list of customer names in Albuquerque in 2017 includes :"
 	}
@@ -22,6 +24,7 @@ $3 ~ /[0-9][0-9]-[0-9][0-9]-17/ {
 		}
 }' Laporan-TokoShiSop.tsv >> hasil.txt
 
+//NO3//
 awk -F "\t" '{
 	if (NR!=1)a[$8]++
 	}
@@ -36,6 +39,7 @@ END	{
 	print "\nThe type of costumer segment with the least sales is",tag,"with",min,"transactions.\n"
 } ' Laporan-TokoShiSop.tsv >> hasil.txt
 
+//NO4//
 awk -F "\t" '{
 	if (NR!=1)a[$13]+=$21
 	}

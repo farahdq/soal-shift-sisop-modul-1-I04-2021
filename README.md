@@ -49,6 +49,7 @@ Question : Clemong has a promotional plan in Albuquerque using the MLM method. T
   
   ## 2D
   Question : TokoShiSop divides the sales region into four parts: Central, East, South, and West. Manis wants to find the region that has the least total profit and the total profit of that region.
+  
   if (NR!=1)x[$13]+=$21
   
   $13 is coloumn 13 and $21 is coloumn 21. coloumn 21 will be adding to the array in coloumn 13.

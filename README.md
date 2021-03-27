@@ -5,7 +5,7 @@
 ## 2A
 Question : Steven wants to appreciate the performance of his employees so far by knowing Row ID and the largest profit percentage (if the largest profit percentage is more than 1, take the largest Row ID). To make your work easier, Clemong provides the definition of profit percentage
 
-by the formula is Profit Percentage = (Profit Cost Price)*100
+by the formula is Profit Percentage = (Profit : Cost Price)*100
 
 syntax : profit = $21/($18 - $21)*100;
 

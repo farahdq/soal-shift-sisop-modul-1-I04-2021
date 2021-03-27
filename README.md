@@ -83,7 +83,12 @@ check if the customer made a transaction in 2017 in Albuquerque. $2~"2017" is  T
   # NO 3
   ## 3A
   Question : Make a script to download 23 images from "https://loremflickr.com/320/240/kitten" and save the logs to the file "Foto.log". Since the downloaded images are random, it is possible that the same image is downloaded more than once, therefore you have to delete the same image (no need to download new images to replace them). Then save the images with the name "Kumpulan_XX" with consecutive numbers without missing any number (example: Koleksi_01, Koleksi_02, ...)
-  
+  	for ((num=1 ; num<=23; num=num+1))
+	do
+	wget -a Foto.log 'https://loremflickr.com/320/240/kitten'
+	filename=$(printf "Koleksi_%02d" "$num")
+	mv kitten $filename 
+	done
 Using wiget to get download the pictures from the link and changing the names to koleksi from 1-23 using num=num+1
 
 ## 3B

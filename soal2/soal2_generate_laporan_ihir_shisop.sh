@@ -3,13 +3,19 @@ profit = $21/($18 - $21)*100;
 if (profit >= max){max = profit;rowid =  $1;ordid =$2}
 
 //2B 
-	{ if ($10 == "Albuquerque")
-	x[$7]++
+	{ 
+	year=$2
+ 	city=$10
+	name=$7
+
+	if (year~"2017" && city=="Albuquerque"){
+	list[name]=+1 }
 	}
-		for (y in x)
-		{
-		print y}
-    
+END {
+	printf ("The list of customer names in ALbuquerque in 2017 includes: \n")
+	for (data in list) {
+	printf ("%s\n",data) }
+}
  //2C
 	if (NR!=1)x[$8]++
   {

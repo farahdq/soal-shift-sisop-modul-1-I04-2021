@@ -63,6 +63,8 @@ Question : Clemong has a promotional plan in Albuquerque using the MLM method. T
 	}
   compare which regions have the least total profit.
   
+  # NO 3
+  
   
 
 

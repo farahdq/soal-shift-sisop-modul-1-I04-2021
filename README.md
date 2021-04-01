@@ -39,9 +39,9 @@ $21 is value from profit coloumn, $18 is sales
 After the profit of each row is obtained, will be compared to the existing max, if it is more or equal to the max then the ordid will be taken from the column 2 rows.
 
 Problems encountered : 
-	1. wrong syntax in if condition
-	2. incorrectly entered the transaction value in print, it should be rowid but I entered orderid. so that the output is wrong
-	3. at first we used >> to overwrite the file, it turnes out wrong which made the output become double
+1. wrong syntax in if condition
+2. incorrectly entered the transaction value in print, it should be rowid but I entered orderid. so that the output is wrong
+3. at first we used >> to overwrite the file, it turnes out wrong which made the output become double
 
 ## 2B
 Question : Clemong has a promotional plan in Albuquerque using the MLM method. Therefore, Clemong needs a list of customer names on the 2017 transaction in Albuquerque.
@@ -61,8 +61,8 @@ $2 is coloumn 2, $10 is coloumn 10, and $7 is coloumn 7
 check if the customer made a transaction in 2017 in Albuquerque. $2~"2017" is  To get a number in the form of a 2017 string from the Order ID field use. Then check if the customer is making a transaction in Albuquerque from the City column with $10=="Albuquerque". After that, the customer name will be stored in an array of names[$7]++ where $7 is the Customer Name field. Then the name of the customer that meets the if condition will be stored in the array
 
 Problems encountered :
-	1. wrong syntax in if condition
-	2. at first we still include the first coloumn to be scanned, so the value gone wrong
+1. wrong syntax in if condition
+2. at first we still include the first coloumn to be scanned, so the value gone wrong
     
  ## 2C
  Question : TokoShiSop focuses on three customer segments, among others: Home Offices, Customers, and Corporates. Clemong wants to increase sales in the customer segment that has the least sales. Therefore, Clemong needs a customer segment and the number of transactions with the least amount of transactions.
@@ -79,8 +79,8 @@ Problems encountered :
   compare each segment, and will get the minimum
   
   Problems encountered :
-  	 1. at first we still include the first column to be scanned, so the value gone wrong
-  	 2. after the end condition, we are confused how to write the correct syntax form
+   1. at first we still include the first column to be scanned, so the value gone wrong
+   2. after the end condition, we are confused how to write the correct syntax form
   
   ## 2D
   Question : TokoShiSop divides the sales region into four parts: Central, East, South, and West. Manis wants to find the region that has the least total profit and the total profit of that region.
@@ -99,8 +99,8 @@ Problems encountered :
   compare which regions have the least total profit.
   
   Problems encountered :
-  	 1. we confused about the formula form, at first we don't put x in x[$13] then the value doesn't printed
-  	 2. wrong syntax
+  1. we confused about the formula form, at first we don't put x in x[$13] then the value doesn't printed
+  2. wrong syntax
   
   # NO 3
   ## 3A

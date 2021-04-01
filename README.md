@@ -101,7 +101,7 @@ Problems encountered :
   
   Problems encountered :
   1. we confused about the formula form, at first we don't put x in x[$13] then the value doesn't printed
-  2. wrong syntax
+  2. wrong syntax in if and for condition
   
   # NO 3
   ## 3A

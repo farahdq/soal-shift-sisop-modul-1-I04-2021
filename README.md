@@ -10,17 +10,17 @@ Ryujin has just been accepted as an IT support at Bukapedia. He was given the ta
 ## 1A
 Question: Collects information from application logs contained in the syslog.log file. The information required includes: log type (ERROR / INFO), log messages, and the username on each log line. Since Ryujin finds it difficult to check one line at a time manually, he uses regex to make his job easier. Help Ryujin create the regex.
 
-## 2A
+## 1B
 Question: Then, Ryujin must display all error messages that appear along with the number of occurrences.
 
 
-## 3A
+## 1C
 Question: Ryujin must also be able to display the number of occurrences of the ERROR and INFO logs for each user.
 
-## 4A
+## 1D
 Question: All information obtained in point b is written into the error_message.csv file with the Error, Count header, which is then followed by a list of error messages and the number of occurrences is ordered based on the number of occurrence of error messages from the most.
 
-## 5A
+## 1E
 Question: All information obtained in point c is written into the user_statistic.csv file with the header Username, INFO, ERROR sorted by username in ascending order.
 
 
@@ -34,9 +34,14 @@ by the formula is Profit Percentage = (Profit : Cost Price)*100
 
 $21 is value from profit coloumn, $18 is sales 
 
-	if (profit >= max){max = profit;rowid =  $1;ordid =$2}
+	if (profit >= max){max = profit;rowid = $1;ordid =$2}
 
 After the profit of each row is obtained, will be compared to the existing max, if it is more or equal to the max then the ordid will be taken from the column 2 rows.
+
+Problems encountered : 
+	1. wrong syntax in if condition
+	2. incorrectly entered the transaction value in print, it should be rowid but I entered orderid. so that the output is wrong
+	3. at first we used >> to overwrite the file, it turnes out wrong which made the output become double
 
 ## 2B
 Question : Clemong has a promotional plan in Albuquerque using the MLM method. Therefore, Clemong needs a list of customer names on the 2017 transaction in Albuquerque.
@@ -54,6 +59,10 @@ $2 is coloumn 2, $10 is coloumn 10, and $7 is coloumn 7
 	for (data in list) {
 	printf ("%s\n",data) }
 check if the customer made a transaction in 2017 in Albuquerque. $2~"2017" is  To get a number in the form of a 2017 string from the Order ID field use. Then check if the customer is making a transaction in Albuquerque from the City column with $10=="Albuquerque". After that, the customer name will be stored in an array of names[$7]++ where $7 is the Customer Name field. Then the name of the customer that meets the if condition will be stored in the array
+
+Problems encountered :
+	1. wrong syntax in if condition
+	2. at first we still include the first coloumn to be scanned, so the value gone wrong
     
  ## 2C
  Question : TokoShiSop focuses on three customer segments, among others: Home Offices, Customers, and Corporates. Clemong wants to increase sales in the customer segment that has the least sales. Therefore, Clemong needs a customer segment and the number of transactions with the least amount of transactions.
@@ -68,6 +77,10 @@ check if the customer made a transaction in 2017 in Albuquerque. $2~"2017" is  T
 			min = x[y];
 			tag = y;
   compare each segment, and will get the minimum
+  
+  Problems encountered :
+  	 1. at first we still include the first column to be scanned, so the value gone wrong
+  	 2. after the end condition, we are confused how to write the correct syntax form
   
   ## 2D
   Question : TokoShiSop divides the sales region into four parts: Central, East, South, and West. Manis wants to find the region that has the least total profit and the total profit of that region.
@@ -84,6 +97,10 @@ check if the customer made a transaction in 2017 in Albuquerque. $2~"2017" is  T
 			tag = y;
 	
   compare which regions have the least total profit.
+  
+  Problems encountered :
+  	 1. we confused about the formula form, at first we don't put x in x[$13] then the value doesn't printed
+  	 2. wrong syntax
   
   # NO 3
   ## 3A

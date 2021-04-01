@@ -1,8 +1,9 @@
 # soal-shift-sisop-modul-1-I04-2021
 ## MEMBER 
-	Farah Dhiah Qorirah	05111942000018
+	Hika Pasya Mustofa		05111942000015
+	Farah Dhiah Qorirah		05111942000018
 	Nadhif Bhagawanta Hadiprayitno	05111942000029
-	hika pasya mustofa	05111942000015
+	
 	
 # NO 1
 Ryujin has just been accepted as an IT support at Bukapedia. He was given the task of making daily reports for the company's internal application, ticky. There are 2 reports that he has to make, namely the report on the list of most error message ratings made by Ticky and user usage reports on the Ticky application. In order to make this report, Ryujin had to do the following:

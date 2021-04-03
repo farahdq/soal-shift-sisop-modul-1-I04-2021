@@ -8,5 +8,5 @@ Susan Vittorini
 
 The type of costumer segment with the least sales is Home Office with 1783 transactions.
 
-The region which has the total profit is Central with total profit 39243,000000
+The region which has the total profit is Central with total profit 39706.362500
 
